@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   transition: 0.3s;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .mobile-menu.active {
@@ -52,7 +52,7 @@
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   border-radius: 0.25rem;
-  z-index: 999;
+  z-index: 3;
   padding: 15px;
   cursor: pointer;
   transition: 0.3s;
@@ -357,7 +357,7 @@ a {
   color: #fff;
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
-  z-index: 50;
+  z-index: 3;
 }
 
 .scroll-to-top:focus,
